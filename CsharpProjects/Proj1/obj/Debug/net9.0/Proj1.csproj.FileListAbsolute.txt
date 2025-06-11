@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\bin\Debug\net9.0\Proj1.exe
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\bin\Debug\net9.0\Proj1.deps.json
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\bin\Debug\net9.0\Proj1.runtimeconfig.json
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\bin\Debug\net9.0\Proj1.dll
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\bin\Debug\net9.0\Proj1.pdb
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\Proj1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\Proj1.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\Proj1.AssemblyInfo.cs
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\Proj1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\Proj1.sourcelink.json
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\Proj1.dll
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\refint\Proj1.dll
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\Proj1.pdb
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\Proj1.genruntimeconfig.cache
+C:\Users\Admin\Desktop\DS\dotNet\CsharpProjects\Proj1\obj\Debug\net9.0\ref\Proj1.dll
