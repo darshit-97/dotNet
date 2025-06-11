@@ -5,4 +5,23 @@ Your work in the security department is focused on finding a pattern for fraudul
 
 In this exercise, you use arrays to store and analyze a collection of Order IDs.
 */
-string[] fraudulentOrderIDs = new string[3];
+
+
+/* string[] fraudulentOrderIDs = new string[3];
+
+fraudulentOrderIDs[0] = "A123";
+fraudulentOrderIDs[1] = "B123";
+fraudulentOrderIDs[2] = "C123";
+// fraudulentOrderIDs[3] = "D123";
+*/
+
+string[] fraudulentOrderIDs = ["A123", "B456", "C789"];
+
+Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
+Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
+Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
+
+fraudulentOrderIDs[0] = "A100";
+Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
+
+Console.WriteLine($"There are {fraudulentOrderIDs.Length} Fraudulent Orders to process.");
