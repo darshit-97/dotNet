@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "CsharpProjects\Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proj2", "CsharpProjects\Proj2\Proj2.csproj", "{8ACC5071-AD3E-4548-968E-9E6F4F47197D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGradingApplication", "CsharpProjects\StudentGradingApplication\StudentGradingApplication.csproj", "{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,18 @@ Global
 		{8ACC5071-AD3E-4548-968E-9E6F4F47197D}.Release|x64.Build.0 = Release|Any CPU
 		{8ACC5071-AD3E-4548-968E-9E6F4F47197D}.Release|x86.ActiveCfg = Release|Any CPU
 		{8ACC5071-AD3E-4548-968E-9E6F4F47197D}.Release|x86.Build.0 = Release|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Debug|x64.Build.0 = Debug|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Debug|x86.Build.0 = Debug|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Release|x64.ActiveCfg = Release|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Release|x64.Build.0 = Release|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Release|x86.ActiveCfg = Release|Any CPU
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +94,7 @@ Global
 		{CFAE1B32-ABED-4482-931F-F5675974742A} = {377645E0-7459-E4D6-7B01-C40A186E0CA7}
 		{8AF57537-5F91-4435-A019-E3F84C613737} = {377645E0-7459-E4D6-7B01-C40A186E0CA7}
 		{8ACC5071-AD3E-4548-968E-9E6F4F47197D} = {377645E0-7459-E4D6-7B01-C40A186E0CA7}
+		{3BA68726-6F48-4356-AA2A-C5276B2B7CDD} = {377645E0-7459-E4D6-7B01-C40A186E0CA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE57C67F-F44D-4AB2-931E-961D465F40E9}
