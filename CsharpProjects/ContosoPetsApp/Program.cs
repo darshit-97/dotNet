@@ -1,4 +1,6 @@
 ﻿// the ourAnimals array will store the following: 
+using System.Globalization;
+
 string animalSpecies = "";
 string animalID = "";
 string animalAge = "";
@@ -13,8 +15,6 @@ string menuSelection = "";
 
 // array used to store runtime data, there is no persisted data
 string[,] ourAnimals = new string[maxPets, 6];
-
-// TODO: Convert the if-elseif-else construct to a switch statement
 
 // create some initial ourAnimals array entries
 for (int i = 0; i < maxPets; i++)
@@ -108,7 +108,17 @@ do
     {
         case "1":
             // List all of the current pet information
-            Console.WriteLine("This app feature is coming soon - please check back to see the progress.");
+            for (int i = 0; i < maxPets; i++)
+            {
+                if (ourAnimals[i, 0] != "ID #: ")
+                {
+                    Console.WriteLine(/* ourAnimals[i, 0] */);
+                    for (int j = 0; j < 6; j++)
+                    {
+                        Console.WriteLine(ourAnimals[i, j]);
+                    }
+                }
+            }
             Console.WriteLine("Press the Enter Key to continue.");
             readResult = Console.ReadLine();
             break;
