@@ -106,7 +106,7 @@ Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {r
 float result3 = value3 / value1;
 Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}"); */
 
-string[] pallets = ["B14", "A11", "B12", "A13"];
+/* string[] pallets = ["B14", "A11", "B12", "A13"];
 
 Console.WriteLine("Sorted...");
 Array.Sort(pallets);
@@ -129,4 +129,17 @@ Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
 foreach (var pallet in pallets)
 {
     Console.WriteLine($"--{pallet}");
+} */
+
+string[] pallets = [ "B14", "A11", "B12", "A13" ];
+Console.WriteLine("");
+
+Console.WriteLine($"Before: {pallets[0]}");
+Array.Clear(pallets, 0, 2);
+Console.WriteLine($"After: {pallets[0]}");
+
+Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
 }
