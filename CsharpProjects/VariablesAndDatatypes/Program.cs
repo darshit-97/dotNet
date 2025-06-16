@@ -93,7 +93,7 @@ foreach (var value in values)
 Console.WriteLine($"Message: {message}");
 Console.WriteLine($"Total: {total}"); */
 
-int value1 = 11;
+/* int value1 = 11;
 decimal value2 = 6.2m;
 float value3 = 4.3f;
 
@@ -104,4 +104,13 @@ decimal result2 = value2 / (decimal)value3;
 Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
 
 float result3 = value3 / value1;
-Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}"); */
+
+string[] pallets = ["B14", "A11", "B12", "A13"];
+
+Console.WriteLine("Sorted...");
+Array.Sort(pallets);
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"--{pallet}");
+}
