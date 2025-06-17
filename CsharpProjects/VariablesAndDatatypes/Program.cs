@@ -176,7 +176,7 @@ foreach (var pallet in pallets)
     Console.WriteLine($"-- {pallet}");
 } */
 
-string value = "abc123";
+/* string value = "abc123";
 char[] valueArray = value.ToCharArray();
 Array.Reverse(valueArray);
 // string result = new string(valueArray);
@@ -187,4 +187,28 @@ string[] items = result.Split(',');
 foreach (string item in items)
 {
     Console.WriteLine(item);
+} */
+
+String pangram = "The quick brown fox jumps over the lazy dog";
+
+string[] message = pangram.Split(' ');
+
+string[] newMessage = new string[message.Length];
+
+for (int i = 0; i < message.Length; i++)
+{
+    char[] letters = message[i].ToCharArray();
+    Array.Reverse(letters);
+    newMessage[i] = new string(letters);
 }
+
+string result = String.Join("", newMessage);
+Console.WriteLine(result);
+
+string cleaned = new string(pangram.ToLower().Replace(" ", "").ToCharArray());
+
+char[] chars = cleaned.ToCharArray();
+Array.Sort(chars);
+string sorted = new string(chars);
+
+Console.WriteLine(sorted);
