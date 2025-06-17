@@ -189,7 +189,7 @@ foreach (string item in items)
     Console.WriteLine(item);
 } */
 
-String pangram = "The quick brown fox jumps over the lazy dog";
+/* String pangram = "The quick brown fox jumps over the lazy dog";
 
 string[] message = pangram.Split(' ');
 
@@ -223,4 +223,21 @@ foreach (var item in items)
         Console.WriteLine(item);
     else
         Console.WriteLine(item + "\t-Error");
-}
+} */
+
+string first = "Hello";
+string second = "World";
+string result = string.Format("{0} {1}", first, second);
+Console.WriteLine(result);
+
+int invoiceNumber = 1201;
+decimal productShares = 25.4568m;
+decimal subtotal = 2750.00m;
+decimal taxPercentage = .15825m;
+decimal total = 3185.19m;
+
+Console.WriteLine($"Invoice Number: {invoiceNumber}");
+Console.WriteLine($"\tShares: {productShares:N3} Product");
+Console.WriteLine($"\t  Sub Total: {subtotal:C}");
+Console.WriteLine($"\t      Tax: {taxPercentage:P2}");
+Console.WriteLine($"\t  Total Billed: {total:C}");
