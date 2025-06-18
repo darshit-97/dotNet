@@ -410,3 +410,39 @@ double VndToUsd(int vnd)
 /* ==================================================================== */
 /* ==================================================================== */
 
+/* method that returns a string */
+
+string input = "snake";
+
+Console.WriteLine(input);
+Console.WriteLine(ReverseWord(input));
+
+string ReverseWord(string word)
+{
+    string result = "";
+    for (int i = word.Length - 1; i >= 0; i--)
+    {
+        result += word[i];
+    }
+    return result;
+}
+/* ==================================================================== */
+/* ==================================================================== */
+
+string input1 = "there are snakes at the zoo";
+
+Console.WriteLine(input1);
+Console.WriteLine(ReverseSentence(input1));
+
+string ReverseSentence(string input1) 
+{
+    string result = "";
+    string[] words = input1.Split(" ");
+
+    foreach(string word in words) 
+    {
+        result += ReverseWord(word) + " ";
+    }
+
+    return result.Trim();
+}
