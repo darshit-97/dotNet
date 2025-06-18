@@ -219,7 +219,7 @@ void PrintCircleCircumference(int radius)
 
 /* Pass by Value */
 
-int a = 3;
+/* int a = 3;
 int b = 4;
 int c = 0;
 
@@ -230,14 +230,14 @@ void multiply(int a, int b, int c)
 {
     c = a * b;
     Console.WriteLine($"Inside Multiply method: {a} x {b} = {c}");
-}
+} */
 
 /* ==================================================================== */
 /* ==================================================================== */
 
 /* Pass by Reference */
 
-int[] array = { 1, 2, 3, 4, 5 };
+/* int[] array = { 1, 2, 3, 4, 5 };
 
 PrintArray(array);
 Clear(array);
@@ -258,4 +258,66 @@ void Clear(int[] array)
     {
         array[i] = 0;
     }
+} */
+
+/* ==================================================================== */
+/* ==================================================================== */
+
+/* RSVP Application (Demonstrating Method with Optional Parameters)*/
+
+string[] guestList = { "Rebecca", "Nadia", "Noor", "Jonte" };
+string[] rsvps = new string[10];
+int count = 0;
+
+RSVP("Rebecca");
+RSVP("Nadia", 2, "Nuts");
+RSVP(name: "Linh", partySize: 2, inviteOnly: false);
+RSVP("Tony", allergies: "Jackfruit", inviteOnly: true);
+RSVP("Noor", 4, inviteOnly: false);
+RSVP("Jonte", 2, "Stone fruit", false);
+ShowRSVPs();
+
+void RSVP(string name, int partySize = 1, string allergies = "none", bool inviteOnly = true)
+{
+    if (inviteOnly)
+    {
+        if (inviteOnly)
+        {
+            bool found = false;
+            foreach (string guest in guestList)
+            {
+                if (guest.Equals(name))
+                {
+                    found = true;
+                    break;
+                }
+            }
+            if (!found)
+            {
+                Console.WriteLine($"Sorry, {name} is not on the guest list");
+                return;
+            }
+        }
+    }
+
+    rsvps[count] = $"Name: {name}, \tParty Size: {partySize}, \tAllergies: {allergies}";
+    count++;
 }
+
+void ShowRSVPs()
+{
+    Console.WriteLine("\nTotal RSVPs:");
+    for (int i = 0; i < count; i++)
+    {
+        Console.WriteLine(rsvps[i]);
+    }
+}
+
+/* ==================================================================== */
+/* ==================================================================== */
+
+/* ==================================================================== */
+/* ==================================================================== */
+
+/* ==================================================================== */
+/* ==================================================================== */
