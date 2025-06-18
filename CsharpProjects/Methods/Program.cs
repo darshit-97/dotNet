@@ -412,7 +412,7 @@ double VndToUsd(int vnd)
 
 /* method that returns a string */
 
-string input = "snake";
+/* string input = "snake";
 
 Console.WriteLine(input);
 Console.WriteLine(ReverseWord(input));
@@ -425,11 +425,11 @@ string ReverseWord(string word)
         result += word[i];
     }
     return result;
-}
+} */
 /* ==================================================================== */
 /* ==================================================================== */
 
-string input1 = "there are snakes at the zoo";
+/* string input1 = "there are snakes at the zoo";
 
 Console.WriteLine(input1);
 Console.WriteLine(ReverseSentence(input1));
@@ -445,4 +445,38 @@ string ReverseSentence(string input1)
     }
 
     return result.Trim();
+} */
+
+/* ==================================================================== */
+/* ==================================================================== */
+
+/* Method that Return Boolean */
+
+string[] words = { "racecar", "talented", "deified", "tent", "tenet" };
+
+Console.WriteLine("Is it a palindrome?");
+foreach (string word in words)
+{
+    Console.WriteLine($"{word}: {IsPalindrome(word)}");
 }
+
+bool IsPalindrome(string word)
+{
+    int start = 0;
+    int end = word.Length - 1;
+
+    while (start < end)
+    {
+        if (word[start] != word[end])
+        {
+            return false;
+        }
+        start++;
+        end--;
+    }
+
+    return true;
+}
+
+/* ==================================================================== */
+/* ==================================================================== */
