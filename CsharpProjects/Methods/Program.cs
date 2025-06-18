@@ -354,11 +354,11 @@ void ShowRSVPs()
 
 /* Return Type Syntax */
 
-double total = 0;
+/* double total = 0;
 double minimumSpend = 30.00;
 
-double[] items = {15.97, 3.50, 12.25, 22.99, 10.98};
-double[] discounts = {0.30, 0.00, 0.10, 0.20, 0.50};
+double[] items = { 15.97, 3.50, 12.25, 22.99, 10.98 };
+double[] discounts = { 0.30, 0.00, 0.10, 0.20, 0.50 };
 
 for (int i = 0; i < items.Length; i++)
 {
@@ -382,12 +382,31 @@ bool TotalMeetsMinimum()
 string FormatDecimal(double input)
 {
     return input.ToString().Substring(0, 5);
+} */
+
+/* ==================================================================== */
+/* ==================================================================== */
+
+/* Method That Returns Integer */
+
+/* double usd = 23.73;
+int vnd = UsdToVnd(usd);
+
+Console.WriteLine($"${usd} USD = ${vnd} VND");
+Console.WriteLine($"${vnd} VND = ${VndToUsd(vnd)} USD");
+
+int UsdToVnd(double usd)
+{
+    int rate = 23500;
+    return (int)(rate * usd);
 }
 
+double VndToUsd(int vnd)
+{
+    double rate = 23500;
+    return vnd / rate;
+}
+ */
 /* ==================================================================== */
 /* ==================================================================== */
 
-
-
-/* ==================================================================== */
-/* ==================================================================== */
